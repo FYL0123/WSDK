@@ -14,7 +14,7 @@ optimizer: SGD
 
 load_path: /media/pc/180A0B207684C9D9/实验数据-fyl/alike-0.02s（纯弱监督模型）/keypoint/000
 
-model: 'PoSFeat'
+model: 'WSDK'
 model_config: 
     backbone: None
     backbone_config: None
