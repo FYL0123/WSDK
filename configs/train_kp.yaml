@@ -12,7 +12,7 @@ optimal_modules: ['localheader']
 optimal_lrs: [1.e-3]
 optimizer: SGD
 
-load_path: /media/pc/180A0B207684C9D9/实验数据-fyl/alike-0.02s（纯弱监督模型）/keypoint/000
+load_path: /media/pc/180A0B207684C9D9/keypoint/
 
 model: 'WSDK'
 model_config: 
@@ -23,7 +23,7 @@ model_config:
 
 data: 'MegaDepth_SIFT'
 data_config_train:
-    data_path: '/media/pc/180A0B207684C9D9/数据集/CAPS-MegaDepth-release-light-test/train'
+    data_path: '/media/pc/180A0B207684C9D9/数据集/CAPS-MegaDepth-release-light/train'
     prune_kp: False
     num_pts: 2000
     batch_size: 8
@@ -34,7 +34,7 @@ no_cuda: ['name1', 'name2']
 
 val_config:
   data_config_val:
-    data_path: '/media/pc/180A0B207684C9D9/数据集/CAPS-MegaDepth-release-light-test/train'
+    data_path: '/media/pc/180A0B207684C9D9/数据集/CAPS-MegaDepth-release-light/train'
     prune_kp: False
     shuffle: True
     num_pts: 1024
