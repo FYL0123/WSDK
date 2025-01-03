@@ -5,5 +5,5 @@ ity. Meanwhile, many of the sparse local feature matching methods put more empha
 
 ![image](https://github.com/FYL0123/WSDK/blob/main/imgs/gflops.jpg)
 
-# Training
+## Training
 Download the preprocessed subset of MegaDepth from [CAPS:](https://github.com/qianqianwang68/caps)
