@@ -5,4 +5,4 @@ Sparse local feature matching methods have made significant strides in a variety
 ![image](https://github.com/FYL0123/WSDK/blob/main/imgs/gflops_mma.png)
 
 # Training
-Download the preprocessed subset of MegaDepth from CAPS: https://github.com/qianqianwang68/caps
+Download the preprocessed subset of MegaDepth from [CAPS:](https://github.com/qianqianwang68/caps)
